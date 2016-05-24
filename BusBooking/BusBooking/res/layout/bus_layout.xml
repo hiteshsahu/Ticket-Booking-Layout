@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:gravity="center_horizontal"
-            android:text="Upper Deck"
+            android:text="Lower Deck"
             android:textColor="#F00"
             android:textSize="20sp" />
 
@@ -29,33 +29,6 @@
             android:layout_weight="1"
             android:background="@drawable/bus_outline"
             android:minHeight="150dp" >
-
-            <LinearLayout
-                android:id="@+id/ud_window_right"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_margin="5dp"
-                android:orientation="horizontal" >
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/ud_mid"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/ud_window_right"
-                android:layout_margin="5dp"
-                android:orientation="horizontal" >
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/ud_window_left"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_margin="5dp"
-                android:orientation="horizontal" >
-            </LinearLayout>
         </RelativeLayout>
 
         <TextView
@@ -63,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:gravity="center_horizontal"
-            android:text="Lower Deck"
+            android:text="Upper Deck"
             android:textColor="#F00"
             android:textSize="20sp" />
 
@@ -75,33 +48,6 @@
             android:layout_weight="1"
             android:background="@drawable/bus_outline"
             android:minHeight="150dp" >
-
-            <LinearLayout
-                android:id="@+id/ld_window_right"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_margin="5dp"
-                android:orientation="horizontal" >
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/ld_mid"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/ld_window_right"
-                android:layout_margin="5dp"
-                android:orientation="horizontal" >
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/ld_window_left"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_margin="5dp"
-                android:orientation="horizontal" >
-            </LinearLayout>
         </RelativeLayout>
 
         <RelativeLayout
@@ -114,6 +60,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:text="Number Of Seats"
+                android:textColor="#000"
                 android:textSize="20sp" />
 
             <TextView
@@ -123,7 +70,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_gravity="center_horizontal"
                 android:gravity="center_horizontal"
-                android:textColor="#0F0"
+                android:text="0"
+                android:textColor="#F00"
                 android:textSize="20sp" />
         </RelativeLayout>
 
@@ -137,6 +85,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:text="Total Cost"
+                android:textColor="#000"
                 android:textSize="20sp" />
 
             <TextView
@@ -144,7 +93,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:textColor="#0F0"
+                android:text="0"
+                android:textColor="#F00"
                 android:textSize="20sp" />
         </RelativeLayout>
     </LinearLayout>
